@@ -1,5 +1,5 @@
 import React = require('react');
-import Chart from '../components/Chart';
+import { Chart } from '../components';
 
 const ChartPage = () => {
   return (
@@ -9,6 +9,7 @@ const ChartPage = () => {
       }}
     >
       <Chart
+        theme="dark"
         option={{
           title: {
             text: 'Bar Chart',

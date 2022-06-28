@@ -1,6 +1,5 @@
 import React = require('react');
-import Chart from '../components/Chart';
-import { MockDataLineChart } from '../components/MockData';
+import { Chart, MockDataLineChart } from '../components';
 
 const LineChartPages = () => {
   return (
